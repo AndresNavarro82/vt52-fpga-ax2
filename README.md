@@ -13,8 +13,9 @@ are added to the toolchain and I have the chance to test them out.
 
 ## Toolchain
 In order to try this you will need a TinyFPGA AX2 board & the
-experimental open-source toolchain for MachXO2 by William Jones, [see
-here](https://github.com/cr1901/nextpnr/tree/machxo2/machxo2)
+experimental open-source toolchain for MachXO2 by William D. Jones, [see
+here](https://github.com/cr1901/nextpnr/tree/machxo2/machxo2).
+
 nextpnr-machxo2 should be in your path and then just run build.sh in
 order to build and upload the project to the AX2.
 
