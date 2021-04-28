@@ -1,7 +1,3 @@
-// Modified from:
-// https://github.com/tinyfpga/TinyFPGA-A-Series/tree/master/template_a2
-// https://tinyfpga.com/a-series-guide.html used as a basis.
-
 module top
   ((* LOC="13" *)
    output wire led1,
@@ -21,7 +17,7 @@ module top
                              .OSC(clk)
                              );
 
-   // video structure constants
+   // video constants
    // these values are not set in stone, taken from a parallax forum
    parameter hpixels = 882;     // horizontal pixels per line
    parameter vlines = 370;      // vertical lines per frame
